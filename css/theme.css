@@ -1,0 +1,32 @@
+/* Бьюти — брови, ресницы, ногти, косметолог, визажист, салон.
+   Настроение: нежно, ухоженно, дорого без пафоса. Пудра, молоко, розовое дерево.
+   Шрифты: Cormorant Garamond (заголовки, изящная антиква) + Manrope (текст).
+   Контраст: текст/фон 13.9, вторичный 6.0, акцент на фоне 5.2, белый на кнопке 5.5. */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;700&display=swap&subset=cyrillic');
+
+:root {
+  --bg: #FBF7F4;            /* молочный */
+  --bg-alt: #F4E9E4;        /* пудра — фон через блок */
+  --surface: #FFFFFF;       /* карточки */
+  --text: #2E2626;
+  --text-muted: #6B5B58;
+  --accent: #9C5452;        /* розовое дерево: кнопки, ссылки, цены */
+  --accent-ink: #FFFFFF;    /* текст на кнопке */
+  --accent-soft: #EBD3CD;   /* плашки, подложки иконок */
+  --line: #E6D6CF;
+  --dark: #2E2626;          /* тёмный блок (CTA, подвал) */
+  --on-dark: #F4E9E4;
+  --accent-on-dark: #E4AFA6;
+
+  --font-head: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --head-weight: 500;
+  --head-tracking: 0;
+  --head-scale: 1.15;       /* антиква мельче на глаз — увеличиваем */
+  --eyebrow-tracking: .18em;
+
+  --radius: 999px;          /* кнопки-таблетки */
+  --radius-card: 24px;
+  --radius-img: 200px 200px 24px 24px;   /* фото «аркой» — фирменный приём */
+  --shadow: 0 10px 30px rgba(156, 84, 82, .10);
+}
