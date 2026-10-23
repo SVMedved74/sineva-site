@@ -19,12 +19,12 @@
 .services__cta { margin-top: 28px; }
 
 .works { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
-.works__item { aspect-ratio: 4 / 5; border-radius: var(--radius-card); }
+.works__item { aspect-ratio: 1 / 1; width: 100%; height: auto; object-fit: cover; border-radius: var(--radius-card); }
 @media (min-width: 720px) { .works { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
 .works__more { margin-top: 24px; align-items: center; }
 
 .about { display: grid; gap: 32px; align-items: center; }
-.about__photo { aspect-ratio: 4 / 5; border-radius: var(--radius-img); max-width: 360px; width: 100%; }
+.about__photo { aspect-ratio: 4 / 5; border-radius: var(--radius-img); max-width: 360px; width: 100%; height: auto; object-fit: cover; }
 @media (min-width: 900px) { .about { grid-template-columns: 360px 1fr; gap: 64px; } }
 
 .review { margin: 0; }
